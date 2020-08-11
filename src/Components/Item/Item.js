@@ -56,7 +56,7 @@ class ConnectedItem extends Component {
             }}
           >
             {" "}
-            Details
+            Details V7
           </Button>
           <Tooltip title="Add to cart">
             <IconButton

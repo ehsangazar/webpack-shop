@@ -10,6 +10,7 @@ import Order from "./Components/Order/Order";
 import Login from "./Components/Login/Login";
 import ProtectedRoute from "./Components/ProtectedRoute/ProtectedRoute";
 import Footer from "./Components/Footer/Footer";
+import { hot } from "react-hot-loader/root";
 
 class App extends Component {
   render() {
@@ -39,4 +40,4 @@ class App extends Component {
   }
 }
 
-export default App;
+export default hot(App);
